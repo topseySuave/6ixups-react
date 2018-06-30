@@ -1,0 +1,21 @@
+{
+  "name": "6ixups-react",
+  "description": "A pipe-line for preview apps",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
