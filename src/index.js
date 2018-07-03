@@ -9,6 +9,9 @@ import './assets/scss/material-kit-react.css';
 
 let history = createBrowserHistory();
 
+// Declare _6ix a global object for convention name space
+global._6ix = {};
+
 ReactDOM.render(
   <Router history={history}>
     <Switch>

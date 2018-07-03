@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
 import classNames from 'classnames';
 
-import buttonStyle from 'assets/jss/material-kit-react/components/buttonStyle.jsx';
+import buttonStyle from '../../assets/jss/material-kit-react/components/buttonStyle.jsx';
 
 function RegularButton({ ...props }) {
   const {
@@ -46,6 +46,7 @@ function RegularButton({ ...props }) {
 RegularButton.propTypes = {
   classes: PropTypes.object.isRequired,
   color: PropTypes.oneOf([
+    'none',
     'primary',
     'info',
     'success',

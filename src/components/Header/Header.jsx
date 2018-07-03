@@ -14,7 +14,7 @@ import Drawer from 'material-ui/Drawer';
 // @material-ui/icons
 import Menu from '@material-ui/icons/Menu';
 // core components
-import headerStyle from 'assets/jss/material-kit-react/components/headerStyle.jsx';
+import headerStyle from '../../assets/jss/material-kit-react/components/headerStyle.jsx';
 
 class Header extends React.Component {
   constructor(props) {
@@ -140,7 +140,8 @@ Header.propTypes = {
     'transparent',
     'white',
     'rose',
-    'dark'
+    'dark',
+    'seaGreen'
   ]),
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,

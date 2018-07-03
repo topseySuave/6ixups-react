@@ -10,7 +10,7 @@ import {
   successColor,
   warningColor,
   dangerColor
-} from 'assets/jss/material-kit-react.jsx';
+} from '../../material-kit-react.jsx';
 
 const buttonStyle = {
   button: {
@@ -23,8 +23,7 @@ const buttonStyle = {
     border: 'none',
     borderRadius: '3px',
     position: 'relative',
-    padding: '12px 30px',
-    margin: '10px 1px',
+    margin: '5px 2px',
     fontSize: '12px',
     fontWeight: '400',
     textTransform: 'uppercase',
@@ -112,6 +111,13 @@ const buttonStyle = {
     '&,&:focus,&:hover': {
       backgroundColor: '#FFFFFF',
       color: grayColor
+    }
+  },
+  none: {
+    backgroundColor: grayColor,
+    '&:hover,&:focus': {
+      boxShadow:
+        '0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2)'
     }
   },
   facebook: {

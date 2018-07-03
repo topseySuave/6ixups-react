@@ -4,27 +4,30 @@
 
 import {
   container,
+  containerReact,
   defaultFont,
   primaryColor,
   infoColor,
   successColor,
   warningColor,
   dangerColor,
+  seaGreen,
   roseColor,
   transition,
   boxShadow,
   drawerWidth
-} from 'assets/jss/material-kit-react.jsx';
+} from '../../material-kit-react.jsx';
 
 const headerStyle = {
   appBar: {
     display: 'flex',
     border: '0',
-    borderRadius: '3px',
+    borderRadius: '0px',
     padding: '0.625rem 0',
     marginBottom: '20px',
     color: '#555',
     width: '100%',
+    height: '45px',
     backgroundColor: '#fff',
     boxShadow:
       '0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)',
@@ -49,6 +52,16 @@ const headerStyle = {
     display: 'flex',
     flexWrap: 'nowrap'
   },
+  containerReact: {
+    ...containerReact,
+    minHeight: '50px',
+    flex: '1',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    display: 'flex',
+    flexWrap: 'nowrap',
+    marginTop: '100px',
+  },
   flex: {
     flex: 1
   },
@@ -72,7 +85,7 @@ const headerStyle = {
     backgroundColor: primaryColor,
     color: '#FFFFFF',
     boxShadow:
-      '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46)'
+      '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(42, 127, 79, 0.46)'
   },
   info: {
     backgroundColor: infoColor,
@@ -124,6 +137,12 @@ const headerStyle = {
     backgroundColor: '#fff !important',
     boxShadow:
       '0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)'
+  },
+  seaGreen: {
+    backgroundColor: seaGreen,
+    color: '#FFFFFF',
+    boxShadow:
+      '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(50, 153, 95, 0.46)'
   },
   drawerPaper: {
     border: 'none',

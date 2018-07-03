@@ -1,13 +1,18 @@
 const imagesStyles = {
+  imgDp: {
+    width: '40px',
+    height: '40px'
+  },
   imgFluid: {
     maxWidth: '100%',
-    height: 'auto'
+    height: 'auto',
+    marginRight: '10px'
   },
   imgRounded: {
     borderRadius: '6px !important'
   },
   imgRoundedCircle: {
-    borderRadius: '50% !important'
+    borderRadius: '50%'
   },
   imgRaised: {
     boxShadow:
